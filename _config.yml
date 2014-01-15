@@ -1,3 +1,5 @@
-name: Your New Aweseome Jekyll Site
+name: Your New Awesome Jekyll Site
 markdown: redcarpet
 pygments: true
+safe: true
+lsi: false
