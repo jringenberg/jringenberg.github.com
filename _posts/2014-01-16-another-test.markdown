@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "It's a Jekyll Party!"
-date:   2014-01-15 14:36:54
+title:  "Porkchops!"
+date:   2014-01-17 14:36:54
 categories: jekyll update
 ---
 
