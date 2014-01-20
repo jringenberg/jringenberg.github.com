@@ -14,7 +14,7 @@ html, body { height: 100%; }
 
 body {
   background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
+  font: 14px Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
 }
@@ -34,19 +34,42 @@ a:visited { color: #a0a; }
 /* Home
 /*
 /*****************************************************************************/
+#home h1 {
+  margin: -30px 0px 13px 0px;
+  font-family: 'Merriweather Sans';
+  font-weight: 300;
+  color: #999999;
+}
+
 .posts {
   list-style-type: none;
   margin-bottom: 2em;
 }
 
+.posts a {
+  font-family: 'Merriweather Sans';
+  font-weight: 700;
+  font-size: 32px;
+  display: inline-block;
+  padding-bottom: 22px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.posts a:hover {
+  color: #4db87f;
+}
+
 .posts li {
-  line-height: 1.75em;
+  line-height: 40px;
 }
 
 .posts span {
   color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
-  font-size: 80%;
+  margin-top: 3px;
+  font-family: 'Merriweather Sans';
+  font-weight: 300;
+  float: right;
 }
 
 /*****************************************************************************/
@@ -56,29 +79,65 @@ a:visited { color: #a0a; }
 /*****************************************************************************/
 
 .site {
-  font-size: 115%;
+  padding: 160px 0px;
   text-align: justify;
-  width: 42em;
-  margin: 3em auto 2em;
-  line-height: 1.5em;
+  background: #26ac91; /* Old browsers */
+  background: -moz-linear-gradient(left,  #26ac91 2%, #e1e43b 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(2%,#26ac91), color-stop(100%,#e1e43b)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left,  #26ac91 2%,#e1e43b 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left,  #26ac91 2%,#e1e43b 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left,  #26ac91 2%,#e1e43b 100%); /* IE10+ */
+  background: linear-gradient(to right,  #26ac91 2%,#e1e43b 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#26ac91', endColorstr='#e1e43b',GradientType=1 ); /* IE6-9 */
+
+}
+
+.site h2 {
+  font-family: 'Merriweather Sans';
+  font-weight: 700;
+  font-size: 32px;
+  display: inline-block;
+  padding-bottom: 22px;
+}
+
+.container {
+  max-width: 640px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 90px;
+}
+
+.meta {
+  display: inline-block;
+  float: right;
+  margin-top: 14px;
+  font-family: 'Merriweather Sans';
+  font-weight: 300;
+}
+
+.header {
+  margin-left: -90px;
+  position: absolute;
+  top: 52px;
 }
 
 .header a {
-  font-weight: bold;
   text-decoration: none;
 }
 
 .title {
   display: inline-block;
-  margin-bottom: 2em;
+  font-family: 'Merriweather Sans';
+  font-size: 42px;
+  font-weight: 300;
 }
 
 .title a {
-  color: #a00;
+  color: #ffffff;
 }
 
 .title a:hover {
-  color: #000;
+  color: #DBFFAE;
 }
 
 .header a.extra {
@@ -128,6 +187,13 @@ a:visited { color: #a0a; }
 /*****************************************************************************/
 
 /* standard */
+.post {
+  font-family: 'Merriweather';
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 31px;
+}
+
 .post pre {
   border: 1px solid #ddd;
   background-color: #eef;
