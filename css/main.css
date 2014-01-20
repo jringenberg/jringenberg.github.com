@@ -121,19 +121,17 @@ a:visited { color: #a0a; }
   top: 52px;
 }
 
-.header a {
-  text-decoration: none;
-}
-
 .title {
   display: inline-block;
   font-family: 'Merriweather Sans';
   font-size: 42px;
   font-weight: 300;
+  vertical-align: top;
 }
 
 .title a {
   color: #ffffff;
+  text-decoration: none;
 }
 
 .title a:hover {
@@ -141,12 +139,22 @@ a:visited { color: #a0a; }
 }
 
 .header a.extra {
-  color: #aaa;
-  margin-left: 1em;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  display: inline-block;
+  margin: 7px 17px 0px 0px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-family: 'Merriweather Sans';
+  font-size: 14px;
+  font-weight: 300;
+  color: #ffffff;
+  text-decoration: none;
+  transition: 400ms;  
 }
 
 .header a.extra:hover {
-  color: #000;
+  border: 2px solid rgba(255, 255, 255, 1);
+  transition: 400ms;
 }
 
 .meta {
