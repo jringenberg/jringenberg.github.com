@@ -81,6 +81,7 @@ img { padding-bottom: 20px; }
 /*****************************************************************************/
 
 .site {
+  height: 100%;
   padding: 160px 0px;
   text-align: justify;
   background: #26ac91; /* Old browsers */
