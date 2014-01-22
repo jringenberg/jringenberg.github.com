@@ -1,0 +1,9 @@
+.first-chart div {
+  font: 10px sans-serif;
+  background-color: steelblue;
+  text-align: right;
+  padding: 6px;
+  margin: 1px;
+  color: white;
+  transition: padding 1s;
+}
