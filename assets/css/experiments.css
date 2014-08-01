@@ -1,9 +1,78 @@
 .first-chart div {
   font: 10px sans-serif;
-  background-color: steelblue;
+  background-color: #54bbff;
   text-align: right;
   padding: 6px;
   margin: 1px;
   color: white;
   transition: padding 1s;
 }
+
+
+.chart {
+  color: red;
+}
+
+.chart rect {
+  fill: steelblue;
+}
+
+.chart text {
+  fill: white;
+  font: 10px sans-serif;
+  text-anchor: end;
+}
+
+.skidmore {
+  width: 467px;
+  height: 1096px;
+}
+
+.skidmore img {
+  height: 100%;
+  float: left;
+}
+
+.skidmore .first {
+  width: 30%;
+}
+
+.bar {
+  fill: steelblue;
+}
+
+.bar:hover {
+  fill: brown;
+}
+
+.axis {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+
+/* Audience graph v1 (d3 V) */
+.green {
+  fill: #e6ff63;
+}
+
+.yellow {
+  fill: #ffe900;
+}
+
+.orange {
+  fill: #fdbf00;
+}
+
+
+
